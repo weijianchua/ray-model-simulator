@@ -17,7 +17,7 @@
                 <option value="single">Single Ray</option>
                 <option value="beam">Beam (3 Rays)</option>
             </select>
-
+    
             <label for="surface-type">Surface Type:</label>
             <select id="surface-type">
                 <option value="smooth">Smooth</option>
@@ -25,7 +25,11 @@
             </select>
         </div>
         <canvas id="simulationCanvas"></canvas>
-    </main>
+        <div id="angles">
+            <p>Angle of Incidence (i): <span id="angle-incidence">-</span>°</p>
+            <p>Angle of Reflection (r): <span id="angle-reflection">-</span>°</p>
+        </div>
+    </main>  
     <footer>
         <p>Created for Educational Purposes</p>
     </footer>
